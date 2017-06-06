@@ -1,0 +1,31 @@
+.custom-btn {
+	cursor: pointer;
+}
+
+.checkFavBoard {
+	float: right;
+	margin-right: 20px;
+	color: red;
+	display: none;
+}
+
+.favArticle {
+	color: yellow;
+}
+
+#fbBtn {
+	font-family: Helvetica, Arial, sans-serif;
+    vertical-align: middle;
+	background-color: #4267b2;
+	border: 1px solid #4267b2;
+	border-radius: 3px;
+	font-size: 11px;
+	font-weight: bold;
+	line-height: 1.55;
+	color: #fff;
+}
+
+#fbBtn:hover {
+	background-color: #365899;
+	color: #fff;
+}

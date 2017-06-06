@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "PTT Extension",
+  "description": "Enhance PTT Web for anonymous user",
+  "version": "1.0",
+  "browser_action": {
+  },
+  "background": {
+    "scripts": ["background.js"]
+  },
+  "content_scripts" : [{
+        "matches": ["https://www.ptt.cc/bbs/*", "https://www.ptt.cc/cls/*"],
+        "js": ["jquery-3.2.1.min.js", "content_script.js"],
+        "css": ["custom.css"]
+    }],
+    "permissions" : ["tabs", "activeTab", "storage", "bookmarks"]
+}
